@@ -33,6 +33,11 @@ Review current cash amount in the ATM
 Review current currency counts in the ATM
 `atm.available_currency`
 
+## Tests
+
+To run the tests, run the following:
+`python -m unittest \PATH\TO\TestATMDispenser.py`
+
 ## Features
 
 - Knowledge stored in memory of total count of all Australian cash denominations.
@@ -40,10 +45,11 @@ Review current currency counts in the ATM
 - Ability to manually add/remove denomination counts
 - Ability to withdraw specified cash amounts
 - Ability to notify when impossible to withdraw due to lack of notes
+- Test Suite to cover all required test cases and some additional cases
 
 ## Further Possible Improvements
 
 - Addition of Front-end
-- Addition of Database
-- Addition of threshold identification
+- Addition of Database to store denomination counts
+- Addition of threshold identification for denomination counts
 - Addition of managing cash withdrawal options to distribute denomination usage
